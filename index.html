@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivos do porque o Fran é foda:</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff3f3;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #b92020;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #822727;
+        }
+        #message {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Francisco Neckel</h1>
+    <button class="button" onclick="showMessage(' Pra começar: O capitalismo falhou, falha e falhará em cada uma das sociedades onde ele colocar os seus tentáculos que se baseiam na expropriação e na exploração do homem pelo homem. É isso o que nós combatemos!')">Botão 1</button>
+    <button class="button" onclick="showMessage('O maior fã de samba que não sabe sambar, mas meu deus quando ele começa a cantar um samba enredo, não tem pra ninguém, ainda mais quando a música for escrita por ele!')">Botão 2</button>
+    <button class="button" onclick="showMessage('Gastou muito dinheiro em uma maquina de fazer bolinhas de sabão e eu preciso colocar isso como um dos tópicos pq não conheço ninguém que tenha gastado dinheiro em uma arma de fazer bolinha de sabão.')">Botão 3</button>
+    <button class="button" onclick="showMessage('NEEEEEEEEEEEERD!!!!!!!')">Botão 4</button>
+    <button class="button" onclick="showMessage('VENCEDOR DA OLIMPIADA DE HISTÓRIA!!! Sim, o orgulho que eu sentia de vc Fran, mesmo que de longe, eu estava a milhão!!')">Botão 5</button>
+    <button class="button" onclick="showMessage('NEEEEEEEEEEEERD!!!!!!!!!!!!!! e pai da Bela.')">Botão 6</button>
+    <button class="button" onclick="showMessage('Uma vez Flamengo, sempre Flamengo! Flamengo sempre eu hei de ser, É o meu maior prazer vê-lo brilhar,Seja na terra, seja no mar, Vencer, vencer, vencer, Uma vez Flamengo, Flamengo até morrer, Na regata ele me mata, me maltrata,Me arrebata, que emoção no coração, Consagrado no gramado, sempre amado, Mais cotado no Fla-Flu, é o ai, Jesus, Eu teria um desgosto profundo, Se faltasse o Flamengo no mundo, Ele vibra, ele é fibra, muita libra, já pesou, Flamengo até morrer, eu sou,Uma vez Flamengo, sempre Flamengo, Flamengo sempre eu hei de ser, É o meu maior prazer vê-lo brilhar, Seja na terra, seja no mar, Vencer, vencer, vencer, Uma vez Flamengo, Flamengo até morrer, Na regata ele me mata, me maltrata, Me arrebata, que emoção no coração, Consagrado no gramado, sempre amado,Mais cotado no Fla-Flu, é o ai, Jesus, Eu teria um desgosto profundo, Se faltasse o Flamengo no mundo, Ele vibra, ele é fibra, muita libra, já pesou,Flamengo até morrer, eu sou')">Botão 7</button>
+    <div id="message"></div>
+
+    <script>
+        function showMessage(text) {
+            const messageDiv = document.getElementById('message');
+            messageDiv.innerText = text;
+            messageDiv.style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
